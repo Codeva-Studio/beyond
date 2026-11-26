@@ -1,4 +1,4 @@
-<!-- BEYOND -->
+# BEYOND
 
 <p align="center">
   <img
@@ -6,6 +6,21 @@
     alt="BEYOND — Beyond what we know"
     width="100%"
   />
+</p>
+
+<p align="center">
+  <a href="./README.md">
+    <img
+      src="https://img.shields.io/badge/ENGLISH-8274B9?style=for-the-badge"
+      alt="English"
+    />
+  </a>
+  <a href="./README.es.md">
+    <img
+      src="https://img.shields.io/badge/ESPA%C3%91OL-292640?style=for-the-badge"
+      alt="Español"
+    />
+  </a>
 </p>
 
 <h1 align="center">BEYOND</h1>
@@ -37,9 +52,9 @@
 
 - [About the Project](#about-the-project)
 - [Conceptual Foundation](#conceptual-foundation)
-  - [Gestalt Psychology](#01-gestalt-psychology)
-  - [Impossible Geometry](#02-impossible-geometry)
-  - [Perception and Reality](#03-perception-and-reality)
+  - [01. Gestalt Psychology](#01-gestalt-psychology)
+  - [02. Impossible Geometry](#02-impossible-geometry)
+  - [03. Perception and Reality](#03-perception-and-reality)
 - [The Experience](#the-experience)
 - [Experience Preview](#experience-preview)
 - [Visual Direction](#visual-direction)
@@ -74,16 +89,6 @@ Principles such as proximity, similarity, continuity and closure influence how w
 
 BEYOND explores these principles through compositions that challenge visual expectations and encourage visitors to reconsider what they perceive.
 
-<!--
-<p align="center">
-  <img
-    src="./assets/readme/gestalt-principles.png"
-    alt="Visual perception and Gestalt principles"
-    width="85%"
-  />
-</p>
--->
-
 ### 02. Impossible Geometry
 
 Impossible figures are visual representations that appear to describe coherent three-dimensional structures but contain spatial relationships that cannot exist as depicted.
@@ -93,16 +98,6 @@ One notable example is the Penrose triangle, introduced in the work of Lionel an
 These constructions reveal the difference between visual representation and physical possibility.
 
 BEYOND uses impossible geometry as inspiration for architectural forms, unusual perspectives and environments that challenge conventional spatial logic.
-
-<!--
-<p align="center">
-  <img
-    src="./assets/readme/impossible-geometry.png"
-    alt="Impossible geometry and spatial paradoxes"
-    width="85%"
-  />
-</p>
--->
 
 ### 03. Perception and Reality
 
@@ -138,31 +133,11 @@ BEYOND unfolds through five interconnected chapters. Each one represents a diffe
 
 An introduction to an unfamiliar universe where the boundaries of the known begin to dissolve.
 
-<!--
-<p align="center">
-  <img
-    src="./assets/readme/awakening.png"
-    alt="The Awakening — Chapter visual"
-    width="85%"
-  />
-</p>
--->
-
 ### 02 — The Impossible
 
 **Beyond spatial logic.**
 
 An exploration of impossible architecture, unconventional structures and perspectives that challenge the rules of physical space.
-
-<!--
-<p align="center">
-  <img
-    src="./assets/readme/impossible.png"
-    alt="The Impossible — Chapter visual"
-    width="85%"
-  />
-</p>
--->
 
 ### 03 — The Reflection
 
@@ -170,47 +145,17 @@ An exploration of impossible architecture, unconventional structures and perspec
 
 Mirrors, reflections and visual distortions create environments where the relationship between reality and representation becomes uncertain.
 
-<!--
-<p align="center">
-  <img
-    src="./assets/readme/reflection.png"
-    alt="The Reflection — Chapter visual"
-    width="85%"
-  />
-</p>
--->
-
 ### 04 — The Unknown
 
 **Beyond familiar dimensions.**
 
 An encounter with unfamiliar environments, portals and spaces that invite exploration beyond conventional spatial representation.
 
-<!--
-<p align="center">
-  <img
-    src="./assets/readme/unknown.png"
-    alt="The Unknown — Chapter visual"
-    width="85%"
-  />
-</p>
--->
-
 ### 05 — The Beyond
 
 **Beyond the limits of perception.**
 
 The final stage of the journey, where imagination and perception converge into an experience without a clearly defined boundary.
-
-<!--
-<p align="center">
-  <img
-    src="./assets/readme/beyond.png"
-    alt="The Beyond — Chapter visual"
-    width="85%"
-  />
-</p>
--->
 
 ---
 
