@@ -1,0 +1,42 @@
+# BEYOND task form.
+# Use this for planned work that is not primarily a bug or feature request.
+name: Task
+description: Track a specific piece of project work.
+title: "task: "
+labels:
+  - task
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What needs to be done?
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this work necessary?
+    validations:
+      required: true
+
+  - type: textarea
+    id: completion
+    attributes:
+      label: Definition of done
+      description: List the conditions that indicate the task is complete.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and notes
+      description: Mention related Issues, decisions, or dependencies.
+    validations:
+      required: false

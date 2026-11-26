@@ -1,0 +1,5 @@
+# Controls the Issue template chooser shown by GitHub.
+# Set to true to allow Issues without a predefined template.
+blank_issues_enabled: false
+# Add contact_links only when BEYOND has a real, maintained support destination.
+# No placeholder or invented URL is included here.

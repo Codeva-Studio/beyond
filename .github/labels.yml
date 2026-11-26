@@ -1,0 +1,53 @@
+# BEYOND repository label catalogue.
+# This is a documented source of truth, NOT an automatic GitHub label importer.
+# Create or update labels in GitHub > Issues > Labels, or use a separately configured API tool.
+# Hex colors are written without the leading #.
+- name: bug
+  color: D73A4A
+  description: Something is not working as expected.
+- name: feature
+  color: A2EEEF
+  description: A new capability or experience.
+- name: task
+  color: 1D76DB
+  description: Planned project work.
+- name: documentation
+  color: 0075CA
+  description: Documentation changes.
+- name: good first issue
+  color: 7057FF
+  description: Suitable for someone new to the project.
+- name: help wanted
+  color: 008672
+  description: Extra help is welcome.
+- name: question
+  color: D876E3
+  description: More information or clarification is needed.
+- name: duplicate
+  color: CFD3D7
+  description: This Issue or Pull Request already exists.
+- name: wontfix
+  color: FFFFFF
+  description: This will not be addressed.
+- name: "priority: high"
+  color: B60205
+  description: High priority.
+- name: "priority: medium"
+  color: FBCA04
+  description: Medium priority.
+- name: "priority: low"
+  color: 0E8A16
+  description: Low priority.
+- name: skip-changelog
+  color: EDEDED
+  description: Exclude this change from generated Release notes.
+
+- name: "enhancement"
+  color: 84B6EB
+  description: An improvement to an existing capability or experience.
+- name: "chore"
+  color: 6C757D
+  description: Routine maintenance or repository configuration.
+- name: "dependencies"
+  color: 0366D6
+  description: Dependency updates and maintenance.
