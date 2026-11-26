@@ -1,0 +1,29 @@
+# Configures GitHub's automatically generated Release notes.
+# This file organizes merged Pull Requests by their labels.
+# It does NOT create, tag, or publish a Release.
+changelog:
+  categories:
+    - title: "Features and experiences"
+      labels:
+        - feature
+        - enhancement
+    - title: "Bug fixes"
+      labels:
+        - bug
+    - title: "Documentation"
+      labels:
+        - documentation
+    - title: "Maintenance"
+      labels:
+        - task
+        - chore
+        - dependencies
+    - title: "Other changes"
+      labels:
+        - "*"
+  # Exclude routine or automated entries from generated notes.
+  exclude:
+    labels:
+      - skip-changelog
+    authors:
+      - github-actions[bot]

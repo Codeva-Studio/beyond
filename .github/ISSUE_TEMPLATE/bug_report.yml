@@ -1,0 +1,61 @@
+# BEYOND bug report form.
+# GitHub reads this YAML file and displays a guided form when an Issue is created.
+# Keep the label below synchronized with the repository's actual labels.
+name: Bug report
+description: Report behavior that is not working as expected.
+title: "fix: "
+labels:
+  - bug
+body:
+  # Markdown blocks display instructions; they do not collect an answer.
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve BEYOND.
+        Do not include passwords, access tokens, private keys, or personal data.
+
+  # A textarea is appropriate when the reporter needs to explain a situation.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem and where you encountered it.
+      placeholder: Explain the unexpected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: List the steps in the order needed to reproduce the problem.
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include browser, operating system, and relevant version information.
+    validations:
+      required: false
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or additional context
+      description: Add evidence that helps explain the issue. Remove private information.
+    validations:
+      required: false

@@ -1,0 +1,38 @@
+# BEYOND documentation request form.
+# Use this for missing, inaccurate, or unclear project documentation.
+name: Documentation
+description: Request a documentation correction or addition.
+title: "docs: "
+labels:
+  - documentation
+body:
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: Documentation change
+      description: Select the kind of documentation work needed.
+      options:
+        - Missing documentation
+        - Incorrect information
+        - Unclear explanation
+        - Typo or formatting
+        - New guide
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Link to the page or identify the file and section.
+      placeholder: "docs/example.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Requested change
+      description: Explain what should be corrected, clarified, or added.
+    validations:
+      required: true
