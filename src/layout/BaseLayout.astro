@@ -1,0 +1,48 @@
+---
+
+/* Import global styles and design tokens */
+import "../styles/global.css";
+
+/* Define the required properties for each page */
+interface Props {
+    title: string;
+    description: string;
+    language: string;
+}
+
+/* Retrieve page properties passed to the layout */
+const = { title, description, language } = Astro.props;
+
+---
+
+<!-- Define the document type and language -->
+<!DOCTYPE html>
+<html lang={language}>
+
+    <head>
+
+        <!-- Define character encoding for the document -->
+        <meta charset="UTF-8"/>
+
+        <!-- Configure the viewport for responsive layouts -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!-- Provide information about the page content -->
+        <meta name="description" content={description}/>
+
+        <!-- Set the browser interface theme color -->
+        <meta name="theme-color" content="#17152B"/>
+
+        <!-- Define the page title displayed in the browser tab -->
+        <title>{title}</title>
+
+    </head>
+    
+    <body>
+
+        <!-- Render the page content inside the layout -->
+        <slot/>
+
+    </body>
+
+</html>

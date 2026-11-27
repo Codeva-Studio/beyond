@@ -1,1 +1,37 @@
+/* Import Tailwind CSS into the project */
 @import "tailwindcss";
+
+/* Register the project fonts */
+
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("fonts/space-grotesk/SpaceGrotesk-VariableFont.ttf") format("truetype");
+    font-weight: 400 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("fonts/dm-sans/DMSans-VariableFont.ttf") format("truetype");
+    font-weight: 400 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Define project's global design tokens */
+@theme {
+
+    /* Configure the thypography families */
+    --font-heading: "Space Grotesk", sans-serif;
+    --font-body: "DM Sans", sans-serif;
+
+    /* Define the brand color palette */
+    --color-midnight: #17152B;
+    --color-violet: #8274B9;
+    --color-lilac: #C8B6ED;
+    --color-peach: #F2A88F;
+    --color-ivory: #F8EAD9;
+    --color-aqua: #8EDCE0;
+
+}
